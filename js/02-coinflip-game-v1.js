@@ -1,14 +1,14 @@
 console.log(`The “Coin Flip” Game v1`)
 
-let coinFlip, result
+let coinFlipV1, resultV1
 
-coinFlip = Math.round(Math.random())
+coinFlipV1 = Math.round(Math.random())
 
 let choice = prompt(`Select “Heads or Tails” : `)
 
-if(coinFlip < 1){
+if(coinFlipV1 < 1){
 
-     result = "Heads"
+     result1 = "Heads"
 
     if(choice == 'Heads'){
 
@@ -22,7 +22,7 @@ if(coinFlip < 1){
 
 else{
 
-    result = "Tails"
+    resultV1 = "Tails"
 
     if(choice == 'Heads'){
 

@@ -1,22 +1,22 @@
 console.log(`The “Coin Flip” Game v2`)
 
-let coinFlip, result
+let coinFlipV2, resultV2
 
 let times = prompt(`How many times should the coin flip?`)
 
 for(let i=0; i<times; i++){
 
-    coinFlip = Math.round(Math.random())
+    coinFlipV2 = Math.round(Math.random())
 
-    if(coinFlip === 0){
+    if(coinFlipV2 === 0){
 
-        result = "Heads"
-        console.log(result)
+        resultV2 = "Heads"
+        console.log(resultV2)
     }
 
     else{
 
-        result = "Tails"
-        console.log(result)
+        resultV2 = "Tails"
+        console.log(resultV2)
     }
 }

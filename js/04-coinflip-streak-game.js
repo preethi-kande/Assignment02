@@ -1,20 +1,20 @@
 console.log(`The “Coin Flip Streak” Game`)
 
-let coinFlip, result
+let coinFlipV3, resultV3
 
 do {
-    coinFlip = Math.round(Math.random())
+    coinFlipV3 = Math.round(Math.random())
 
-    if(coinFlip === 0){
+    if(coinFlipV3 === 0){
 
-        result = "Heads"
-        console.log(result)
+        resultV3 = "Heads"
+        console.log(resultV3)
     }
 
     else{
 
-        result = "Tails"
-        console.log(result)
+        resultV3 = "Tails"
+        console.log(resultV3)
     }
 
-} while (coinFlip === 1);
+} while (coinFlipV3 === 1);
